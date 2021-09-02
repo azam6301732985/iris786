@@ -18,4 +18,4 @@ def predict():
     return render_template("index.html", prediction_text = "The flower species is {}".format(prediction))
 
 if __name__ == "__main__":
-    flask_app.run(debug=True)
+    flask_app.run(debug=False)
